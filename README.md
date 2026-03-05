@@ -1,86 +1,45 @@
-**📱 Appium Mobile Automation Framework**
+📱 Appium Mobile Automation Framework
 
-A scalable mobile automation testing framework built using Appium, Java, TestNG, and Selenium WebDriver.
+A mobile test automation framework built using Appium, Java, TestNG, and Selenium for automating Android applications.
+This framework demonstrates scalable automation architecture using Page Object Model (POM), parallel execution, logging, retry mechanisms, and data-driven testing.
 
-This project demonstrates a production-style automation framework implementing Page Object Model (POM), parallel execution, retry mechanisms, logging, and data-driven testing.
+The goal of this project is to provide a maintainable and extensible automation framework for testing mobile applications efficiently.
 
-The framework is designed for Android mobile automation and can be extended to support distributed execution with Selenium Grid or cloud device farms.
+🚀 Features
 
-**Repository:**
+📱 Mobile automation using Appium
 
-https://github.com/Nitisha-19/AppiumV4
+🧱 Page Object Model (POM) design pattern
 
-🚀 **Framework Architecture**
+🔁 Retry Analyzer for failed tests
 
-                TestNG Test Cases
-                       │
-                       ▼
-                BaseClass (Driver Setup)
-                       │
-                       ▼
-               Page Object Model (POM)
-                       │
-                       ▼
-              Appium Server (WebDriver)
-                       │
-                       ▼
-              Android Emulator / Device
-              
-📊 **Automation Workflow**
+📊 Data-driven testing with DataProviders
 
+🧾 Log4j logging for debugging and traceability
 
-Start Test
-   │
-   ▼
-Launch Appium Server
-   │
-   ▼
-Initialize Driver (BaseClass)
-   │
-   ▼
-Execute Test Cases
-   │
-   ▼
-Page Object Methods
-   │
-   ▼
-Perform Mobile Actions
-   │
-   ▼
-Assertions & Validation
-   │
-   ▼
-Test Result & Logs
+⚡ Parallel test execution using TestNG
 
+📋 Test grouping (Sanity / Regression)
 
-**✨ Key Features**
+📱 Supports Android emulators and real devices
 
-✔ Page Object Model (POM) architecture
-✔ Appium mobile automation for Android apps
-✔ TestNG test execution framework
-✔ Parallel test execution support
-✔ Retry mechanism for flaky tests
-✔ Log4j logging for debugging and traceability
-✔ Data-driven testing using TestNG DataProviders
-✔ Modular and maintainable project structure
-✔ Maven dependency management
-✔ Easily extendable to Selenium Grid
+☁️ Designed to support Selenium Grid / distributed execution
 
-🛠 **Tech Stack**
+🧪 Modular test architecture for easy scalability
 
-Tool	Purpose
+Mobile automation frameworks built with Appium allow testers to automate Android and iOS applications using the WebDriver protocol, similar to Selenium-based automation frameworks.
+
+🛠 Tech Stack
+Tool / Framework	Purpose
 Java	Programming language
-Appium	Mobile automation
-Selenium WebDriver	WebDriver protocol
-TestNG	Test framework
-Maven	Build & dependency management
+Appium	Mobile automation framework
+Selenium WebDriver	WebDriver protocol support
+TestNG	Test execution and reporting
+Maven	Dependency management
 Log4j	Logging framework
-Android Studio	Emulator management
-Appium Inspector	UI element inspection
-
-📂 **Project Structure**
-
-
+Android Studio	Emulator and SDK management
+Appium Inspector	Element inspection
+📂 Project Structure
 AppiumV4
 │
 ├── src/test/java
@@ -98,7 +57,7 @@ AppiumV4
 │   │       AddToCart.java
 │   │       TermsAndConditions.java
 │   │       ValidateToastMessage.java
-│   │
+│
 │   └── Utilities
 │           RetryAnalyzer.java
 │           DataProviders.java
@@ -110,76 +69,79 @@ AppiumV4
 ├── testng.xml
 ├── pom.xml
 └── README.md
+⚙️ Prerequisites
 
+Make sure the following tools are installed:
 
-⚙️ **Prerequisites**
-
-Install the following tools:
 Java JDK 11+
+
 Maven
+
 Node.js
+
 Appium
+
 Android Studio
+
 Android SDK
+
 Appium Inspector
 
-📦 **Install Appium**
-
+Install Appium
 npm install -g appium
 
-**Verify installation:**
+Verify installation:
 
 appium -v
-
-📱 **Start Android Emulator**
+📱 Start Android Emulator
 
 Open Android Studio → Device Manager
-Start an emulator.
-Verify connection:
+Start an emulator or connect a real device.
+
+Verify device connection:
+
 adb devices
-
-**Example output:**
-
-emulator-5554 device
 ▶️ Running the Tests
-Start Appium Server
+1️⃣ Start Appium Server
 appium
 
-Default URL
+Default server:
+
 http://127.0.0.1:4723
-
-Execute Tests Using Maven
+2️⃣ Run Using Maven
 mvn clean test
-
-Run TestNG Suite
+3️⃣ Run Specific TestNG Suite
 mvn test -Dsurefire.suiteXmlFiles=testng.xml
+⚡ Parallel Execution
 
-⚡ **Parallel Execution**
 This framework supports parallel test execution using TestNG.
 
-Example configuration:
+Example:
+
 <suite name="MobileSuite" parallel="tests" thread-count="2">
 
-Tests can run simultaneously on:
-Multiple Android emulators
-Multiple physical devices
+This allows tests to run on multiple emulators or devices simultaneously.
 
-🧾 **Logging**
+🧾 Logging
 
-Logging is implemented using Log4j2.
+The framework uses Log4j for logging test execution.
 
-Logs capture:
-Test execution steps
+Logs include:
+
+Test start and completion
+
+Element interactions
+
 Debug information
-Errors and failures
-Assertion results
+
+Failure details
+
 Configuration file:
 
 src/test/resources/log4j2.xml
+🔁 Retry Mechanism
 
-🔁 **Retry Mechanism**
-
-Failed tests are automatically retried using RetryAnalyzer.
+Failed tests automatically retry using RetryAnalyzer.
 
 Example:
 
@@ -191,25 +153,39 @@ This helps reduce flaky test failures.
 
 Example automated flow:
 
-1️⃣ Launch mobile application
-2️⃣ Enter user name and gender
-3️⃣ Select country
-4️⃣ Navigate to products page
-5️⃣ Add product to cart
-6️⃣ Validate terms and conditions alert
+Launch mobile application
 
-🔮 **Future Improvements**
+Enter user details
 
-Planned enhancements:
+Select country
 
-Selenium Grid integration
-Cloud device execution
+Navigate to products page
+
+Add item to cart
+
+Validate terms and conditions alert
+
+🔮 Future Enhancements
+
+Selenium Grid support for distributed execution
+
+CI/CD integration with Jenkins / GitHub Actions
+
+Allure or Extent reports
+
+Screenshot capture on failures
+
+Cloud device integration (BrowserStack / Sauce Labs)
+
 iOS automation support
 
-👩‍💻 **Author**
+👩‍💻 Author
 
 Nitisha Kondadhasula
-QA Automation Engineer specializing in Selenium, Appium, and Automation Framework Design
 
-GitHub
+QA Automation Engineer
+
+Expertise in Selenium, Appium, TestNG, and Automation Framework Design
+
+GitHub:
 https://github.com/Nitisha-19
