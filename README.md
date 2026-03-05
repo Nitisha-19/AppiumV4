@@ -71,7 +71,7 @@ Log4j	Logging framework
 Android Studio	Emulator management
 Appium Inspector	UI element inspection
 
-📂** Project Structure**
+📂 **Project Structure**
 AppiumV4
 │
 ├── src/test/java
