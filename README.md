@@ -1,11 +1,12 @@
-📱 Appium Mobile Automation Framework
+**📱 Appium Mobile Automation Framework**
 
 A mobile test automation framework built using Appium, Java, TestNG, and Selenium for automating Android applications.
 This framework demonstrates scalable automation architecture using Page Object Model (POM), parallel execution, logging, retry mechanisms, and data-driven testing.
 
 The goal of this project is to provide a maintainable and extensible automation framework for testing mobile applications efficiently.
 
-🚀 Features
+
+**🚀 Features**
 
 📱 Mobile automation using Appium
 
@@ -27,9 +28,11 @@ The goal of this project is to provide a maintainable and extensible automation 
 
 🧪 Modular test architecture for easy scalability
 
+
 Mobile automation frameworks built with Appium allow testers to automate Android and iOS applications using the WebDriver protocol, similar to Selenium-based automation frameworks.
 
-🛠 Tech Stack
+
+**🛠 Tech Stack**
 Tool / Framework	Purpose
 Java	Programming language
 Appium	Mobile automation framework
@@ -39,7 +42,9 @@ Maven	Dependency management
 Log4j	Logging framework
 Android Studio	Emulator and SDK management
 Appium Inspector	Element inspection
-📂 Project Structure
+
+
+**📂 Project Structure**
 AppiumV4
 │
 ├── src/test/java
@@ -69,7 +74,9 @@ AppiumV4
 ├── testng.xml
 ├── pom.xml
 └── README.md
-⚙️ Prerequisites
+
+
+**⚙️ Prerequisites**
 
 Make sure the following tools are installed:
 
@@ -87,32 +94,38 @@ Android SDK
 
 Appium Inspector
 
+
 Install Appium
 npm install -g appium
 
 Verify installation:
-
 appium -v
-📱 Start Android Emulator
+
+
+**📱 Start Android Emulator**
 
 Open Android Studio → Device Manager
 Start an emulator or connect a real device.
 
 Verify device connection:
-
 adb devices
+
 ▶️ Running the Tests
+
 1️⃣ Start Appium Server
 appium
 
 Default server:
-
 http://127.0.0.1:4723
+
 2️⃣ Run Using Maven
 mvn clean test
+
 3️⃣ Run Specific TestNG Suite
 mvn test -Dsurefire.suiteXmlFiles=testng.xml
-⚡ Parallel Execution
+
+
+**⚡ Parallel Execution**
 
 This framework supports parallel test execution using TestNG.
 
@@ -122,7 +135,8 @@ Example:
 
 This allows tests to run on multiple emulators or devices simultaneously.
 
-🧾 Logging
+
+**🧾 Logging**
 
 The framework uses Log4j for logging test execution.
 
@@ -137,9 +151,10 @@ Debug information
 Failure details
 
 Configuration file:
-
 src/test/resources/log4j2.xml
-🔁 Retry Mechanism
+
+
+**🔁 Retry Mechanism**
 
 Failed tests automatically retry using RetryAnalyzer.
 
@@ -165,21 +180,17 @@ Add item to cart
 
 Validate terms and conditions alert
 
-🔮 Future Enhancements
+
+**🔮 Future Enhancements**
 
 Selenium Grid support for distributed execution
-
-CI/CD integration with Jenkins / GitHub Actions
-
-Allure or Extent reports
-
-Screenshot capture on failures
 
 Cloud device integration (BrowserStack / Sauce Labs)
 
 iOS automation support
 
-👩‍💻 Author
+
+**👩‍💻 Author**
 
 Nitisha Kondadhasula
 
