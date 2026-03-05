@@ -7,9 +7,11 @@ This project demonstrates a production-style automation framework implementing P
 The framework is designed for Android mobile automation and can be extended to support distributed execution with Selenium Grid or cloud device farms.
 
 **Repository:**
+
 https://github.com/Nitisha-19/AppiumV4
 
-🚀** Framework Architecture**
+🚀 **Framework Architecture**
+
                 TestNG Test Cases
                        │
                        ▼
@@ -25,6 +27,7 @@ https://github.com/Nitisha-19/AppiumV4
               Android Emulator / Device
               
 📊 **Automation Workflow**
+
 Start Test
    │
    ▼
@@ -49,6 +52,7 @@ Assertions & Validation
 Test Result & Logs
 
 **✨ Key Features**
+
 ✔ Page Object Model (POM) architecture
 ✔ Appium mobile automation for Android apps
 ✔ TestNG test execution framework
@@ -61,6 +65,7 @@ Test Result & Logs
 ✔ Easily extendable to Selenium Grid
 
 🛠 **Tech Stack**
+
 Tool	Purpose
 Java	Programming language
 Appium	Mobile automation
@@ -72,6 +77,7 @@ Android Studio	Emulator management
 Appium Inspector	UI element inspection
 
 📂 **Project Structure**
+
 AppiumV4
 │
 ├── src/test/java
@@ -103,7 +109,7 @@ AppiumV4
 └── README.md
 
 
-⚙️** Prerequisites**
+⚙️ **Prerequisites**
 
 Install the following tools:
 Java JDK 11+
@@ -115,12 +121,15 @@ Android SDK
 Appium Inspector
 
 📦 **Install Appium**
+
 npm install -g appium
 
 **Verify installation:**
+
 appium -v
 
 📱 **Start Android Emulator**
+
 Open Android Studio → Device Manager
 Start an emulator.
 Verify connection:
@@ -152,7 +161,7 @@ Tests can run simultaneously on:
 Multiple Android emulators
 Multiple physical devices
 
-🧾** Logging**
+🧾 **Logging**
 
 Logging is implemented using Log4j2.
 
