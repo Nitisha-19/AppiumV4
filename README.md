@@ -45,35 +45,10 @@ Appium Inspector	Element inspection
 
 
 **📂 Project Structure**
-AppiumV4
-│
-├── src/test/java
-│
-│   ├── TestBase
-│   │       BaseClass.java
-│   │
-│   ├── PageObjects
-│   │       HomePage.java
-│   │       ProductsPage.java
-│   │       CartPage.java
-│   │
-│   ├── TestCases
-│   │       LetsShop.java
-│   │       AddToCart.java
-│   │       TermsAndConditions.java
-│   │       ValidateToastMessage.java
-│
-│   └── Utilities
-│           RetryAnalyzer.java
-│           DataProviders.java
-│
-├── src/test/resources
-│       config.properties
-│       log4j2.xml
-│
-├── testng.xml
-├── pom.xml
-└── README.md
+
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/48570d63-e2aa-4b6c-b974-1fa7d83cd6c2" />
+
 
 
 **⚙️ Prerequisites**
