@@ -28,6 +28,7 @@ https://github.com/Nitisha-19/AppiumV4
               
 📊 **Automation Workflow**
 
+
 Start Test
    │
    ▼
@@ -50,6 +51,7 @@ Assertions & Validation
    │
    ▼
 Test Result & Logs
+
 
 **✨ Key Features**
 
@@ -77,6 +79,7 @@ Android Studio	Emulator management
 Appium Inspector	UI element inspection
 
 📂 **Project Structure**
+
 
 AppiumV4
 │
