@@ -449,15 +449,12 @@ Example automated flow:
 Planned enhancements:
 
 Selenium Grid integration
-
 Cloud device execution
-
 iOS automation support
 
 👩‍💻 Author
 
 Nitisha Kondadhasula
-
 QA Automation Engineer specializing in Selenium, Appium, and Automation Framework Design
 
 GitHub
