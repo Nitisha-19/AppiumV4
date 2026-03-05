@@ -1,0 +1,46 @@
+
+<suite thread-count="2" name="Suite" parallel="test">
+<groups>
+<run>
+<include name="sanity"/>
+<include name="regression"/>
+<include name="datadriven"/>
+</run>
+</groups>
+<listeners>
+    <listener class-name="Utilities.TestListener"/>
+</listeners>
+
+    <!-- Emulator 1 -->
+    <test name="Android_Emulator_5554">
+        <parameter name="deviceName" value="emulator-5554"/>
+        <parameter name="systemPort" value="8201"/>
+
+        <classes>
+            <class name="TestCases.LaunchApp"/>
+            <class name="TestCases.LetsShop"/>
+            <class name="TestCases.CompletePurchase"/>
+            <class name="TestCases.AddToCart"/>
+            <class name="TestCases.TermsAndConditions"/>
+            <class name="TestCases.ShopSelectingUS"/>
+            <class name="TestCases.ValidateToastMessage"/>
+        </classes>
+    </test>
+
+    <!-- Emulator 2 -->
+    <test name="Android_Emulator_5556">
+        <parameter name="deviceName" value="emulator-5556"/>
+        <parameter name="systemPort" value="8202"/>
+
+        <classes>
+            <class name="TestCases.LaunchApp"/>
+            <class name="TestCases.LetsShop"/>
+            <class name="TestCases.CompletePurchase"/>
+            <class name="TestCases.AddToCart"/>
+            <class name="TestCases.TermsAndConditions"/>
+            <class name="TestCases.ShopSelectingUS"/>
+            <class name="TestCases.ValidateToastMessage"/>
+        </classes>
+    </test>
+
+</suite>

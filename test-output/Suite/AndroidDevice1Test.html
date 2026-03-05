@@ -1,0 +1,1125 @@
+<html>
+<head>
+<title>TestNG:  AndroidDevice1Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AndroidDevice1Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/4/6</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 03 18:00:18 CST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>57 seconds (57257 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.TermsAndConditions.ConfigureAppium()'><b>ConfigureAppium</b><br>Test class: TestCases.TermsAndConditions<br>Parameters: emulator-5554, 8201</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1079388963", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1079388963'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>3</td>
+<td>TestCases.TermsAndConditions@7c9d8e2</td></tr>
+<tr>
+<td title='TestCases.LetsShop.ConfigureAppium()'><b>ConfigureAppium</b><br>Test class: TestCases.LetsShop<br>Parameters: emulator-5554, 8201</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1715896159", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1715896159'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>3</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.LetsShop.ConfigureAppium()'><b>ConfigureAppium</b><br>Test class: TestCases.LetsShop</td>
+<td></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.LetsShop.ConfigureAppium()'><b>ConfigureAppium</b><br>Test class: TestCases.LetsShop</td>
+<td></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.LetsShop.tearDown()'><b>tearDown</b><br>Test class: TestCases.LetsShop</td>
+<td></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.LetsShop.tearDown()'><b>tearDown</b><br>Test class: TestCases.LetsShop</td>
+<td></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.TermsAndConditions.tearDown()'><b>tearDown</b><br>Test class: TestCases.TermsAndConditions</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TermsAndConditions@7c9d8e2</td></tr>
+<tr>
+<td title='TestCases.LetsShop.tearDown()'><b>tearDown</b><br>Test class: TestCases.LetsShop</td>
+<td></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.LetsShop.ConfigureAppium()'><b>ConfigureAppium</b><br>Test class: TestCases.LetsShop</td>
+<td></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.LetsShop.ConfigureAppium()'><b>ConfigureAppium</b><br>Test class: TestCases.LetsShop</td>
+<td></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.LetsShop.tearDown()'><b>tearDown</b><br>Test class: TestCases.LetsShop</td>
+<td></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.LetsShop.tearDown()'><b>tearDown</b><br>Test class: TestCases.LetsShop</td>
+<td></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.CompletePurchase.TestCompletePurchase()'><b>TestCompletePurchase</b><br>Test class: TestCases.CompletePurchase</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: &apos;POST /element&apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [82ddff02-13ab-4740-939d-3b086f32e978, findElement {using=id, value=com.androidsample.generalstore:id/nameField}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, app: C://Users//nitis//eclipse-w..., automationName: UIAutomator2, chromedriverExecutable: C://Users//nitis//Downloads..., deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 137, appium:systemPort: 8201, appium:takesScreenshot: true, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 82ddff02-13ab-4740-939d-3b086f32e978
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.lambda$getSearchingFunction$0(ByChained.java:41)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:72)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:74)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$cGIav2VQ.sendKeys(Unknown Source)
+	at PageObjects.HomePage.EnterName(HomePage.java:60)
+	at TestCases.CompletePurchase.TestCompletePurchase(CompletePurchase.java:21)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace898176221", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace898176221'><pre>org.openqa.selenium.WebDriverException: &apos;POST /element&apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [82ddff02-13ab-4740-939d-3b086f32e978, findElement {using=id, value=com.androidsample.generalstore:id/nameField}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, app: C://Users//nitis//eclipse-w..., automationName: UIAutomator2, chromedriverExecutable: C://Users//nitis//Downloads..., deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 137, appium:systemPort: 8201, appium:takesScreenshot: true, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 82ddff02-13ab-4740-939d-3b086f32e978
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.lambda$getSearchingFunction$0(ByChained.java:41)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:72)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:74)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$cGIav2VQ.sendKeys(Unknown Source)
+	at PageObjects.HomePage.EnterName(HomePage.java:60)
+	at TestCases.CompletePurchase.TestCompletePurchase(CompletePurchase.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>1</td>
+<td>TestCases.CompletePurchase@70325e14</td></tr>
+<tr>
+<td title='TestCases.LaunchApp.LaunchAppTest()'><b>LaunchAppTest</b><br>Test class: TestCases.LaunchApp</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a7109ce4-66e1-47ee-a416-2d412054a383, findElement {using=-android uiautomator, value=new UiSelector().text(&quot;Your Name&quot;)}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, app: C://Users//nitis//eclipse-w..., automationName: UIAutomator2, chromedriverExecutable: C://Users//nitis//Downloads..., deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 137, appium:systemPort: 8201, appium:takesScreenshot: true, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a7109ce4-66e1-47ee-a416-2d412054a383
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.lambda$getSearchingFunction$0(ByChained.java:41)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:72)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:74)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$cGIav2VQ.getText(Unknown Source)
+	at PageObjects.HomePage.VerifyName(HomePage.java:48)
+	at TestCases.LaunchApp.LaunchAppTest(LaunchApp.java:16)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1140969477", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1140969477'><pre>org.openqa.selenium.WebDriverException: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a7109ce4-66e1-47ee-a416-2d412054a383, findElement {using=-android uiautomator, value=new UiSelector().text(&quot;Your Name&quot;)}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, app: C://Users//nitis//eclipse-w..., automationName: UIAutomator2, chromedriverExecutable: C://Users//nitis//Downloads..., deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 137, appium:systemPort: 8201, appium:takesScreenshot: true, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a7109ce4-66e1-47ee-a416-2d412054a383
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.lambda$getSearchingFunction$0(ByChained.java:41)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:72)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:74)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$cGIav2VQ.getText(Unknown Source)
+	at PageObjects.HomePage.VerifyName(HomePage.java:48)
+	at TestCases.LaunchApp.LaunchAppTest(LaunchApp.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.LaunchApp@9d5509a</td></tr>
+<tr>
+<td title='TestCases.AddToCart.TestAddtoCart()'><b>TestAddtoCart</b><br>Test class: TestCases.AddToCart</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [5a0a57b4-b804-4392-8ef4-68702aef77ce, findElement {using=id, value=com.androidsample.generalstore:id/nameField}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, app: C://Users//nitis//eclipse-w..., automationName: UIAutomator2, chromedriverExecutable: C://Users//nitis//Downloads..., deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 137, appium:systemPort: 8201, appium:takesScreenshot: true, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 5a0a57b4-b804-4392-8ef4-68702aef77ce
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.lambda$getSearchingFunction$0(ByChained.java:41)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:72)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:74)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$cGIav2VQ.sendKeys(Unknown Source)
+	at PageObjects.HomePage.EnterName(HomePage.java:60)
+	at TestCases.AddToCart.TestAddtoCart(AddToCart.java:20)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace821510512", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace821510512'><pre>org.openqa.selenium.WebDriverException: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [5a0a57b4-b804-4392-8ef4-68702aef77ce, findElement {using=id, value=com.androidsample.generalstore:id/nameField}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, app: C://Users//nitis//eclipse-w..., automationName: UIAutomator2, chromedriverExecutable: C://Users//nitis//Downloads..., deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 137, appium:systemPort: 8201, appium:takesScreenshot: true, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 5a0a57b4-b804-4392-8ef4-68702aef77ce
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.lambda$getSearchingFunction$0(ByChained.java:41)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:72)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:74)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$cGIav2VQ.sendKeys(Unknown Source)
+	at PageObjects.HomePage.EnterName(HomePage.java:60)
+	at TestCases.AddToCart.TestAddtoCart(AddToCart.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.AddToCart@37ceb1df</td></tr>
+<tr>
+<td title='TestCases.ShopSelectingUS.ShopSelectingUSTest()'><b>ShopSelectingUSTest</b><br>Test class: TestCases.ShopSelectingUS</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: &apos;POST /element&apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [60b2261b-d42b-434a-a8d9-103bd5935944, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollTextIntoView(&quot;United States&quot;)}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, app: C://Users//nitis//eclipse-w..., automationName: UIAutomator2, chromedriverExecutable: C://Users//nitis//Downloads..., deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 137, appium:systemPort: 8201, appium:takesScreenshot: true, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 60b2261b-d42b-434a-a8d9-103bd5935944
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at PageObjects.BasePage.scrollToText(BasePage.java:30)
+	at TestCases.ShopSelectingUS.ShopSelectingUSTest(ShopSelectingUS.java:14)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace656548779", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace656548779'><pre>org.openqa.selenium.WebDriverException: &apos;POST /element&apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [60b2261b-d42b-434a-a8d9-103bd5935944, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollTextIntoView(&quot;United States&quot;)}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, app: C://Users//nitis//eclipse-w..., automationName: UIAutomator2, chromedriverExecutable: C://Users//nitis//Downloads..., deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 137, appium:systemPort: 8201, appium:takesScreenshot: true, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 60b2261b-d42b-434a-a8d9-103bd5935944
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at PageObjects.BasePage.scrollToText(BasePage.java:30)
+	at TestCases.ShopSelectingUS.ShopSelectingUSTest(ShopSelectingUS.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.ShopSelectingUS@20d525</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.ValidateToastMessage.TestToastMessage()'><b>TestToastMessage</b><br>Test class: TestCases.ValidateToastMessage</td>
+<td></td>
+<td>5</td>
+<td>TestCases.ValidateToastMessage@6200f9cb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.LetsShop.TestLetsShop()'><b>TestLetsShop</b><br>Test class: TestCases.LetsShop<br>Parameters: smitasharma, Female</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace928373747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace928373747'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.LetsShop.TestLetsShop()'><b>TestLetsShop</b><br>Test class: TestCases.LetsShop<br>Parameters: hichamkhachiai, Female</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace766316426", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace766316426'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.TermsAndConditions.TestTermsAndConditions()'><b>TestTermsAndConditions</b><br>Test class: TestCases.TermsAndConditions</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1651267669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1651267669'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.TermsAndConditions@7c9d8e2</td></tr>
+<tr>
+<td title='TestCases.LetsShop.TestLetsShop()'><b>TestLetsShop</b><br>Test class: TestCases.LetsShop<br>Parameters: John, Male</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1561698395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1561698395'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.LetsShop.TestLetsShop()'><b>TestLetsShop</b><br>Test class: TestCases.LetsShop<br>Parameters: Mona, Female</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1435284787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1435284787'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+<tr>
+<td title='TestCases.LetsShop.TestLetsShop()'><b>TestLetsShop</b><br>Test class: TestCases.LetsShop<br>Parameters: sid, Male</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace744766971", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace744766971'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8201 is busy. Make sure the port you provide via &apos;systemPort&apos; capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: &apos;NITISHA-PC&apos;, ip: &apos;192.168.1.240&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 60000, appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//nitis//Downloads..., appium:deviceName: emulator-5554, appium:systemPort: 8201, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.LetsShop@23348b5d</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,1586 @@
+2026-03-04 21:08:09 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:09 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:08:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:08:11 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 21:08:11 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 21:08:11 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 21:08:11 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 21:08:11 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 21:08:11 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 21:08:11 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 21:08:11 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 21:08:29 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 21:08:37 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 21:08:37 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 21:08:39 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 21:08:39 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 21:08:39 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 21:08:39 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 21:08:39 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 21:08:39 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 21:08:39 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 21:08:39 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 21:08:39 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 21:08:39 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 21:08:50 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 21:08:58 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 21:08:58 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 21:09:00 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 21:09:00 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 21:09:00 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 21:09:00 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 21:09:00 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 21:09:00 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 21:09:00 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 21:09:00 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 21:09:00 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 21:09:00 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 21:09:12 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 21:09:21 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 21:09:21 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 21:09:22 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 21:09:22 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 21:09:22 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 21:09:22 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 21:09:22 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 21:09:22 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 21:09:22 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 21:09:22 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 21:09:22 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 21:09:22 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 21:09:37 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 21:09:45 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 21:09:45 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 21:09:46 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 21:09:46 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 21:09:46 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 21:09:46 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 21:09:46 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 21:09:46 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 21:09:46 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 21:09:46 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 21:09:46 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 21:09:46 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 21:09:59 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 21:10:07 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 21:10:07 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 21:10:09 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 21:10:09 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 21:10:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 21:10:11 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 21:10:11 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 21:10:11 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 21:10:11 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 21:10:11 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 21:10:11 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 21:10:11 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 21:10:11 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 21:10:21 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 21:10:29 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 21:10:29 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 21:10:31 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 21:10:31 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 21:10:31 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 21:10:31 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 21:10:31 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 21:10:31 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 21:10:31 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 21:10:31 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 21:10:31 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 21:10:31 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 21:10:42 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 21:10:50 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 21:10:50 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 21:10:52 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 21:10:52 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 21:10:52 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 21:10:52 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 21:10:52 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 21:10:52 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 21:10:52 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 21:10:52 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 21:10:52 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 21:10:52 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 21:11:03 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 21:11:10 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 21:11:10 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 21:11:12 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 21:11:12 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 21:11:12 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 21:11:12 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 21:11:12 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 21:11:12 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 21:11:12 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 21:11:12 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 21:11:12 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 21:11:12 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 21:11:24 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 21:11:33 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 21:11:33 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 21:11:34 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 21:11:34 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 21:11:34 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 21:11:34 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 21:11:34 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 21:11:34 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 21:11:34 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 21:11:34 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 21:11:34 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 21:11:34 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 21:11:45 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 21:11:52 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 21:11:52 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 21:11:54 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 21:11:54 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:16:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:52 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:52 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:52 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:52 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:52 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:52 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:52 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:52 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:16:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:16:53 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:16:53 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:16:53 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:16:53 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:16:53 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:16:53 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:16:53 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:16:53 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:17:20 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 22:17:20 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:17:20 INFO  BaseClass:23 - Executing with Data Set -> Name: smitasharma, Gender: Female
+2026-03-04 22:17:20 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:17:22 DEBUG BaseClass:31 - Entering Name: smitasharma
+2026-03-04 22:17:25 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 22:17:26 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:17:27 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:17:28 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:17:33 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:17:33 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:17:33 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:17:33 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:17:33 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:17:33 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:17:37 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:17:37 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:17:37 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:17:37 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:17:37 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:17:37 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:17:37 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:17:37 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:17:37 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:17:37 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:17:56 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 22:17:56 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:17:56 INFO  BaseClass:23 - Executing with Data Set -> Name: Mona, Gender: Female
+2026-03-04 22:17:56 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:17:56 DEBUG BaseClass:31 - Entering Name: Mona
+2026-03-04 22:18:01 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 22:18:02 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:18:02 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:18:02 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:18:05 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:18:05 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:18:05 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:18:05 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:18:05 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:18:05 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:18:06 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:18:06 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:18:06 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:18:06 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:18:06 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:18:06 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:18:06 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:18:06 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:18:06 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:18:06 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:18:19 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 22:18:19 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:18:19 INFO  BaseClass:23 - Executing with Data Set -> Name: sid, Gender: Male
+2026-03-04 22:18:19 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:18:19 DEBUG BaseClass:31 - Entering Name: sid
+2026-03-04 22:18:23 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 22:18:24 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:18:25 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:18:25 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:18:27 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:18:27 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:18:27 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:18:27 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:18:27 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:18:27 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:18:30 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:18:30 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:18:30 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:18:30 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:18:30 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:18:30 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:18:30 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:18:30 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:18:30 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:18:30 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:18:46 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 22:18:46 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:18:46 INFO  BaseClass:23 - Executing with Data Set -> Name: John, Gender: Male
+2026-03-04 22:18:46 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:18:46 DEBUG BaseClass:31 - Entering Name: John
+2026-03-04 22:18:50 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 22:18:51 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:18:52 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:18:52 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:18:54 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:18:54 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:18:54 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:18:54 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:18:54 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:18:54 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:18:56 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:18:56 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:18:56 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:18:56 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:18:56 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:18:56 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:18:56 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:18:56 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:18:56 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:18:56 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:19:11 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 22:19:11 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:19:11 INFO  BaseClass:23 - Executing with Data Set -> Name: hichamkhachiai, Gender: Female
+2026-03-04 22:19:11 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:19:11 DEBUG BaseClass:31 - Entering Name: hichamkhachiai
+2026-03-04 22:19:16 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 22:19:16 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:19:17 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:19:17 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:19:19 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:19:19 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:19:19 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:19:19 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:19:19 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:19:19 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:19:20 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:19:20 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:19:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:19:22 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 22:19:22 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:19:22 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:19:22 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:19:22 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:19:22 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 22:19:22 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:19:22 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:19:32 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 22:19:32 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:19:32 INFO  BaseClass:23 - Executing with Data Set -> Name: smitasharma, Gender: Female
+2026-03-04 22:19:32 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:19:32 DEBUG BaseClass:31 - Entering Name: smitasharma
+2026-03-04 22:19:36 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 22:19:37 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:19:38 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:19:38 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:19:40 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:19:40 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:19:40 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:19:40 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:19:40 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:19:40 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:19:41 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:19:41 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:19:41 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 22:19:41 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:19:41 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:19:41 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:19:41 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:19:41 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 22:19:41 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:19:41 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:19:52 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 22:19:52 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:19:52 INFO  BaseClass:23 - Executing with Data Set -> Name: Mona, Gender: Female
+2026-03-04 22:19:52 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:19:52 DEBUG BaseClass:31 - Entering Name: Mona
+2026-03-04 22:19:57 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 22:19:57 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:19:58 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:19:58 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:20:00 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:20:00 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:20:00 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:20:00 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:20:00 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:20:00 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:20:01 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:20:01 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:20:01 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 22:20:01 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:20:01 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:20:01 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:20:01 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:20:01 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 22:20:01 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:20:01 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:20:12 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 22:20:12 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:20:12 INFO  BaseClass:23 - Executing with Data Set -> Name: sid, Gender: Male
+2026-03-04 22:20:12 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:20:12 DEBUG BaseClass:31 - Entering Name: sid
+2026-03-04 22:20:17 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 22:20:17 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:20:18 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:20:18 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:20:20 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:20:20 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:20:20 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:20:20 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:20:20 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:20:20 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:20:23 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:20:23 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:20:23 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 22:20:23 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:20:23 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:20:23 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:20:23 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:20:23 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 22:20:23 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:20:23 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:20:37 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 22:20:37 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:20:37 INFO  BaseClass:23 - Executing with Data Set -> Name: John, Gender: Male
+2026-03-04 22:20:37 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:20:37 DEBUG BaseClass:31 - Entering Name: John
+2026-03-04 22:20:42 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 22:20:42 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:20:43 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:20:43 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:20:46 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:20:46 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:20:46 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:20:46 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:20:46 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:20:46 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:20:47 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:20:47 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:20:47 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 22:20:47 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:20:47 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:20:47 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:20:47 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:20:47 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 22:20:47 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:20:47 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:21:06 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 22:21:06 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:21:06 INFO  BaseClass:23 - Executing with Data Set -> Name: hichamkhachiai, Gender: Female
+2026-03-04 22:21:06 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:21:06 DEBUG BaseClass:31 - Entering Name: hichamkhachiai
+2026-03-04 22:21:10 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 22:21:11 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:21:12 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:21:12 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:21:15 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:21:15 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:21:15 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:21:15 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:21:15 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:21:15 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:21:18 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:21:18 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:57:26 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:57:26 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:57:26 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:57:26 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:57:26 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:57:26 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:57:27 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:57:27 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:57:49 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 22:57:49 INFO  BaseClass:15 - ========== Starting Test: LaunchAppTest ==========
+2026-03-04 22:57:49 INFO  BaseClass:19 - Initializing Home Page
+2026-03-04 22:57:50 DEBUG BaseClass:22 - Fetching Home Page label text
+2026-03-04 22:57:53 DEBUG BaseClass:25 - Actual Home Page Text: Your Name
+2026-03-04 22:57:53 INFO  BaseClass:28 - Validating Home Page text
+2026-03-04 22:57:53 INFO  BaseClass:30 - Home Page validation PASSED
+2026-03-04 22:57:53 INFO  BaseClass:42 - ========== Test Completed: LaunchAppTest ==========
+2026-03-04 22:57:53 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:57:53 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:57:55 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:57:55 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:57:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 22:57:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 22:57:57 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:57:57 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:57:57 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:57:57 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:57:57 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:57:57 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:57:57 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:57:57 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:58:11 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 22:58:11 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:58:11 INFO  BaseClass:23 - Executing with Data Set -> Name: smitasharma, Gender: Female
+2026-03-04 22:58:11 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:58:12 DEBUG BaseClass:31 - Entering Name: smitasharma
+2026-03-04 22:58:16 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 22:58:16 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:58:17 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:58:18 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:58:19 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:58:19 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:58:19 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:58:19 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:58:19 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:58:19 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:58:21 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:58:21 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:58:21 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:58:21 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:58:21 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:58:21 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:58:21 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:58:21 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:58:21 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:58:21 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:58:33 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 22:58:33 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:58:33 INFO  BaseClass:23 - Executing with Data Set -> Name: Mona, Gender: Female
+2026-03-04 22:58:33 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:58:33 DEBUG BaseClass:31 - Entering Name: Mona
+2026-03-04 22:58:37 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 22:58:38 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:58:39 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:58:39 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:58:41 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:58:41 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:58:41 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:58:41 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:58:41 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:58:41 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:58:43 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:58:43 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:58:43 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:58:43 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:58:43 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:58:43 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:58:43 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:58:43 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:58:43 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:58:43 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:58:55 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 22:58:55 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:58:55 INFO  BaseClass:23 - Executing with Data Set -> Name: sid, Gender: Male
+2026-03-04 22:58:55 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:58:55 DEBUG BaseClass:31 - Entering Name: sid
+2026-03-04 22:58:59 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 22:59:00 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:59:00 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:59:00 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:59:03 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:59:03 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:59:03 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:59:03 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:59:03 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:59:03 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:59:04 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:59:04 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:59:04 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:59:04 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:59:04 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:59:04 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:59:04 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:59:04 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:59:04 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:59:04 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:59:15 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 22:59:15 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:59:15 INFO  BaseClass:23 - Executing with Data Set -> Name: John, Gender: Male
+2026-03-04 22:59:15 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:59:15 DEBUG BaseClass:31 - Entering Name: John
+2026-03-04 22:59:20 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 22:59:20 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:59:21 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:59:21 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:59:23 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:59:23 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:59:23 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:59:23 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:59:23 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:59:23 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:59:25 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:59:25 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:59:25 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:59:25 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:59:25 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:59:25 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:59:25 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:59:25 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:59:25 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:59:25 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 22:59:37 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 22:59:37 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 22:59:37 INFO  BaseClass:23 - Executing with Data Set -> Name: hichamkhachiai, Gender: Female
+2026-03-04 22:59:38 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 22:59:38 DEBUG BaseClass:31 - Entering Name: hichamkhachiai
+2026-03-04 22:59:43 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 22:59:44 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 22:59:45 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 22:59:45 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 22:59:47 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 22:59:47 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 22:59:47 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 22:59:47 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 22:59:47 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 22:59:47 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 22:59:49 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 22:59:49 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 22:59:49 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 22:59:49 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 22:59:49 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 22:59:49 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 22:59:49 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 22:59:49 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 22:59:49 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 22:59:49 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:00:05 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:00:05 INFO  BaseClass:20 - ========== Starting Test: CompletePurchase ==========
+2026-03-04 23:00:05 INFO  BaseClass:25 - Entering user details on Home Page
+2026-03-04 23:00:05 DEBUG BaseClass:28 - Entering Name: Nitisha
+2026-03-04 23:00:09 DEBUG BaseClass:31 - Selecting Gender: F
+2026-03-04 23:00:10 DEBUG BaseClass:34 - Clicking Lets Shop
+2026-03-04 23:00:10 INFO  BaseClass:39 - Navigating to Products Page
+2026-03-04 23:00:10 DEBUG BaseClass:42 - Scrolling to product: Jordan 6 Rings
+2026-03-04 23:00:19 DEBUG BaseClass:45 - Clicking Add To Cart
+2026-03-04 23:00:20 DEBUG BaseClass:48 - Opening Cart
+2026-03-04 23:00:21 INFO  BaseClass:53 - Handling Cart Page
+2026-03-04 23:00:21 DEBUG BaseClass:56 - Clicking Checkbox
+2026-03-04 23:00:22 DEBUG BaseClass:59 - Clicking Terms button to open WebView
+2026-03-04 23:00:38 INFO  BaseClass:64 - Switching context to WebView
+2026-03-04 23:00:42 DEBUG BaseClass:68 - Available contexts:
+2026-03-04 23:00:42 DEBUG BaseClass:71 - Context found: NATIVE_APP
+2026-03-04 23:00:42 DEBUG BaseClass:71 - Context found: WEBVIEW_com.androidsample.generalstore
+2026-03-04 23:00:46 INFO  BaseClass:75 - Switched to WEBVIEW context successfully
+2026-03-04 23:00:46 DEBUG BaseClass:77 - Waiting for WebView to load (30 seconds)
+2026-03-04 23:01:16 DEBUG BaseClass:80 - Entering text in WebView
+2026-03-04 23:01:17 DEBUG BaseClass:83 - Pressing back from WebView
+2026-03-04 23:01:19 INFO  BaseClass:86 - Switching back to Native App context
+2026-03-04 23:01:22 INFO  BaseClass:91 - Validating return to Home Page
+2026-03-04 23:01:22 DEBUG BaseClass:94 - Actual Home Page Title: Your Name
+2026-03-04 23:01:22 INFO  BaseClass:98 - Home page validation PASSED
+2026-03-04 23:01:22 INFO  BaseClass:110 - ========== Test Completed: CompletePurchase ==========
+2026-03-04 23:01:22 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:01:22 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:01:25 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:01:25 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:01:25 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:01:25 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:01:25 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:01:25 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:01:25 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:01:25 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:01:25 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:01:25 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:01:47 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:01:47 INFO  BaseClass:17 - ========== Starting Test: AddToCart ==========
+2026-03-04 23:01:47 DEBUG BaseClass:18 - Initializing Page Objects
+2026-03-04 23:01:47 INFO  BaseClass:23 - Entering user details on Home Page
+2026-03-04 23:01:47 DEBUG BaseClass:26 - Entering name: Nitisha
+2026-03-04 23:01:52 DEBUG BaseClass:29 - Selecting Gender: Female
+2026-03-04 23:01:53 DEBUG BaseClass:32 - Clicking Lets Shop button
+2026-03-04 23:01:54 INFO  BaseClass:37 - Navigating to Products Page
+2026-03-04 23:01:55 DEBUG BaseClass:40 - Scrolling to product: Jordan 6 Rings
+2026-03-04 23:02:04 DEBUG BaseClass:43 - Clicking Add To Cart
+2026-03-04 23:02:05 DEBUG BaseClass:46 - Clicking Cart icon
+2026-03-04 23:02:05 INFO  BaseClass:51 - Validating Cart Page Title
+2026-03-04 23:02:07 DEBUG BaseClass:55 - Actual Cart Title: Cart
+2026-03-04 23:02:07 INFO  BaseClass:59 - Cart title validation PASSED
+2026-03-04 23:02:07 INFO  BaseClass:71 - ========== Test Completed: AddToCart ==========
+2026-03-04 23:02:07 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:02:07 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:02:08 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:02:08 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:02:08 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:02:08 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:02:08 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:02:08 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:02:08 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:02:08 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:02:08 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:02:08 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:02:21 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:02:21 INFO  TermsAndConditions:22 - Starting TermsAndConditions test
+2026-03-04 23:02:21 DEBUG TermsAndConditions:25 - Entering name: Nitisha
+2026-03-04 23:02:26 DEBUG TermsAndConditions:28 - Selecting gender: F
+2026-03-04 23:02:26 DEBUG TermsAndConditions:31 - Clicking 'Let's Shop'
+2026-03-04 23:02:27 DEBUG TermsAndConditions:35 - Scrolling to 'Jordan 6 Rings'
+2026-03-04 23:02:36 DEBUG TermsAndConditions:38 - Clicking 'Add to Cart'
+2026-03-04 23:02:37 DEBUG TermsAndConditions:41 - Clicking Cart icon
+2026-03-04 23:02:37 DEBUG TermsAndConditions:45 - Performing long press on Terms and Conditions
+2026-03-04 23:02:46 DEBUG TermsAndConditions:49 - Verifying Terms and Conditions alert title: Terms Of Conditions
+2026-03-04 23:02:46 INFO  TermsAndConditions:53 - TermsAndConditions test passed
+2026-03-04 23:02:46 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:02:46 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:02:47 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:02:47 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:02:47 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:02:47 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:02:47 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:02:47 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:02:47 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:02:47 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:02:47 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:02:47 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:03:01 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:03:01 INFO  ShopSelectingUS:21 - Starting ShopSelectingUS test
+2026-03-04 23:03:01 DEBUG ShopSelectingUS:22 - Scrolling to 'United States'
+2026-03-04 23:04:05 DEBUG ShopSelectingUS:25 - Clicking on 'United States'
+2026-03-04 23:04:06 DEBUG ShopSelectingUS:28 - Entering name: Nitisha
+2026-03-04 23:04:07 DEBUG ShopSelectingUS:31 - Selecting gender: F
+2026-03-04 23:04:07 DEBUG ShopSelectingUS:34 - Clicking 'Let's Shop' button
+2026-03-04 23:04:08 INFO  ShopSelectingUS:38 - Navigating to Products Page
+2026-03-04 23:04:08 DEBUG ShopSelectingUS:41 - Fetching Products Page title
+2026-03-04 23:04:11 DEBUG ShopSelectingUS:44 - Actual Products Page Title: Products
+2026-03-04 23:04:11 INFO  ShopSelectingUS:47 - Validating Products Page title
+2026-03-04 23:04:11 INFO  ShopSelectingUS:49 - Products Page validation PASSED
+2026-03-04 23:04:11 INFO  ShopSelectingUS:61 - ========== Test Completed: ShopSelectingUS ==========
+2026-03-04 23:04:11 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:04:11 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:04:13 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:04:13 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:04:13 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:04:13 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:04:13 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:04:13 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:04:13 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:04:13 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:04:13 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:04:13 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:04:25 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:04:25 INFO  ValidateToastMessage:21 - Starting ValidateToastMessage test
+2026-03-04 23:04:25 DEBUG ValidateToastMessage:24 - Clicking 'Let's Shop' without entering name
+2026-03-04 23:04:29 DEBUG ValidateToastMessage:27 - Capturing Toast message
+2026-03-04 23:04:32 INFO  ValidateToastMessage:32 - Toast message displayed: Please enter your name
+2026-03-04 23:04:32 INFO  ValidateToastMessage:36 - Toast message validation passed
+2026-03-04 23:04:32 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:04:32 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:04:34 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:04:34 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:04:38 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:04:38 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:04:38 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:04:38 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:04:38 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:04:38 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:04:38 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:04:38 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:04:49 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:04:49 INFO  BaseClass:15 - ========== Starting Test: LaunchAppTest ==========
+2026-03-04 23:04:49 INFO  BaseClass:19 - Initializing Home Page
+2026-03-04 23:04:49 DEBUG BaseClass:22 - Fetching Home Page label text
+2026-03-04 23:04:53 DEBUG BaseClass:25 - Actual Home Page Text: Your Name
+2026-03-04 23:04:53 INFO  BaseClass:28 - Validating Home Page text
+2026-03-04 23:04:53 INFO  BaseClass:30 - Home Page validation PASSED
+2026-03-04 23:04:53 INFO  BaseClass:42 - ========== Test Completed: LaunchAppTest ==========
+2026-03-04 23:04:53 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:04:53 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:04:55 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:04:55 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:04:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:04:56 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:04:56 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:04:56 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:04:56 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:04:56 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:04:56 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:04:56 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:04:56 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:05:07 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:05:07 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:05:07 INFO  BaseClass:23 - Executing with Data Set -> Name: smitasharma, Gender: Female
+2026-03-04 23:05:07 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:05:07 DEBUG BaseClass:31 - Entering Name: smitasharma
+2026-03-04 23:05:12 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 23:05:12 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:05:13 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:05:13 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:05:16 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:05:16 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:05:16 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:05:16 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:05:16 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:05:16 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:05:17 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:05:17 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:05:17 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:05:17 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:05:17 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:05:17 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:05:17 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:05:17 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:05:17 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:05:17 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:05:31 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:05:31 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:05:31 INFO  BaseClass:23 - Executing with Data Set -> Name: Mona, Gender: Female
+2026-03-04 23:05:31 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:05:31 DEBUG BaseClass:31 - Entering Name: Mona
+2026-03-04 23:05:35 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 23:05:36 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:05:37 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:05:37 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:05:38 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:05:38 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:05:38 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:05:38 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:05:38 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:05:38 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:05:40 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:05:40 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:05:40 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:05:40 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:05:40 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:05:40 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:05:40 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:05:40 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:05:40 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:05:40 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:05:54 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:05:54 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:05:54 INFO  BaseClass:23 - Executing with Data Set -> Name: sid, Gender: Male
+2026-03-04 23:05:54 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:05:54 DEBUG BaseClass:31 - Entering Name: sid
+2026-03-04 23:05:59 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 23:06:00 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:06:00 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:06:00 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:06:03 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:06:03 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:06:03 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:06:03 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:06:03 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:06:03 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:06:05 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:06:05 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:06:05 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:06:05 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:06:05 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:06:05 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:06:05 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:06:05 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:06:05 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:06:05 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:06:16 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:06:16 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:06:16 INFO  BaseClass:23 - Executing with Data Set -> Name: John, Gender: Male
+2026-03-04 23:06:16 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:06:16 DEBUG BaseClass:31 - Entering Name: John
+2026-03-04 23:06:20 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 23:06:21 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:06:22 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:06:22 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:06:24 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:06:24 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:06:24 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:06:24 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:06:24 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:06:24 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:06:25 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:06:25 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:06:25 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:06:25 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:06:25 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:06:25 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:06:25 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:06:25 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:06:25 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:06:25 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:06:37 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:06:37 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:06:37 INFO  BaseClass:23 - Executing with Data Set -> Name: hichamkhachiai, Gender: Female
+2026-03-04 23:06:37 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:06:37 DEBUG BaseClass:31 - Entering Name: hichamkhachiai
+2026-03-04 23:06:41 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 23:06:42 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:06:42 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:06:42 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:06:44 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:06:44 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:06:44 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:06:44 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:06:44 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:06:44 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:06:46 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:06:46 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:06:46 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:06:46 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:06:46 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:06:46 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:06:46 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:06:46 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:06:46 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:06:46 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:06:58 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:06:58 INFO  BaseClass:20 - ========== Starting Test: CompletePurchase ==========
+2026-03-04 23:06:58 INFO  BaseClass:25 - Entering user details on Home Page
+2026-03-04 23:06:58 DEBUG BaseClass:28 - Entering Name: Nitisha
+2026-03-04 23:07:02 DEBUG BaseClass:31 - Selecting Gender: F
+2026-03-04 23:07:03 DEBUG BaseClass:34 - Clicking Lets Shop
+2026-03-04 23:07:04 INFO  BaseClass:39 - Navigating to Products Page
+2026-03-04 23:07:04 DEBUG BaseClass:42 - Scrolling to product: Jordan 6 Rings
+2026-03-04 23:07:13 DEBUG BaseClass:45 - Clicking Add To Cart
+2026-03-04 23:07:14 DEBUG BaseClass:48 - Opening Cart
+2026-03-04 23:07:15 INFO  BaseClass:53 - Handling Cart Page
+2026-03-04 23:07:15 DEBUG BaseClass:56 - Clicking Checkbox
+2026-03-04 23:07:16 DEBUG BaseClass:59 - Clicking Terms button to open WebView
+2026-03-04 23:07:32 INFO  BaseClass:64 - Switching context to WebView
+2026-03-04 23:07:35 DEBUG BaseClass:68 - Available contexts:
+2026-03-04 23:07:35 DEBUG BaseClass:71 - Context found: NATIVE_APP
+2026-03-04 23:07:35 DEBUG BaseClass:71 - Context found: WEBVIEW_com.androidsample.generalstore
+2026-03-04 23:07:39 INFO  BaseClass:75 - Switched to WEBVIEW context successfully
+2026-03-04 23:07:39 DEBUG BaseClass:77 - Waiting for WebView to load (30 seconds)
+2026-03-04 23:08:09 DEBUG BaseClass:80 - Entering text in WebView
+2026-03-04 23:08:10 DEBUG BaseClass:83 - Pressing back from WebView
+2026-03-04 23:08:12 INFO  BaseClass:86 - Switching back to Native App context
+2026-03-04 23:08:15 INFO  BaseClass:91 - Validating return to Home Page
+2026-03-04 23:08:15 DEBUG BaseClass:94 - Actual Home Page Title: Your Name
+2026-03-04 23:08:15 INFO  BaseClass:98 - Home page validation PASSED
+2026-03-04 23:08:15 INFO  BaseClass:110 - ========== Test Completed: CompletePurchase ==========
+2026-03-04 23:08:15 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:08:15 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:08:17 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:08:17 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:08:17 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:08:17 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:08:17 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:08:17 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:08:17 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:08:17 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:08:17 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:08:17 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:08:33 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:08:33 INFO  BaseClass:17 - ========== Starting Test: AddToCart ==========
+2026-03-04 23:08:33 DEBUG BaseClass:18 - Initializing Page Objects
+2026-03-04 23:08:33 INFO  BaseClass:23 - Entering user details on Home Page
+2026-03-04 23:08:33 DEBUG BaseClass:26 - Entering name: Nitisha
+2026-03-04 23:08:37 DEBUG BaseClass:29 - Selecting Gender: Female
+2026-03-04 23:08:38 DEBUG BaseClass:32 - Clicking Lets Shop button
+2026-03-04 23:08:38 INFO  BaseClass:37 - Navigating to Products Page
+2026-03-04 23:08:39 DEBUG BaseClass:40 - Scrolling to product: Jordan 6 Rings
+2026-03-04 23:08:47 DEBUG BaseClass:43 - Clicking Add To Cart
+2026-03-04 23:08:48 DEBUG BaseClass:46 - Clicking Cart icon
+2026-03-04 23:08:48 INFO  BaseClass:51 - Validating Cart Page Title
+2026-03-04 23:08:50 DEBUG BaseClass:55 - Actual Cart Title: Cart
+2026-03-04 23:08:50 INFO  BaseClass:59 - Cart title validation PASSED
+2026-03-04 23:08:50 INFO  BaseClass:71 - ========== Test Completed: AddToCart ==========
+2026-03-04 23:08:50 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:08:50 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:08:51 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:08:51 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:08:51 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:08:51 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:08:51 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:08:51 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:08:51 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:08:51 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:08:51 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:08:51 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:09:03 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:09:03 INFO  TermsAndConditions:22 - Starting TermsAndConditions test
+2026-03-04 23:09:03 DEBUG TermsAndConditions:25 - Entering name: Nitisha
+2026-03-04 23:09:07 DEBUG TermsAndConditions:28 - Selecting gender: F
+2026-03-04 23:09:07 DEBUG TermsAndConditions:31 - Clicking 'Let's Shop'
+2026-03-04 23:09:08 DEBUG TermsAndConditions:35 - Scrolling to 'Jordan 6 Rings'
+2026-03-04 23:09:17 DEBUG TermsAndConditions:38 - Clicking 'Add to Cart'
+2026-03-04 23:09:18 DEBUG TermsAndConditions:41 - Clicking Cart icon
+2026-03-04 23:09:19 DEBUG TermsAndConditions:45 - Performing long press on Terms and Conditions
+2026-03-04 23:09:28 DEBUG TermsAndConditions:49 - Verifying Terms and Conditions alert title: Terms Of Conditions
+2026-03-04 23:09:28 INFO  TermsAndConditions:53 - TermsAndConditions test passed
+2026-03-04 23:09:28 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:09:28 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:09:30 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:09:30 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:09:30 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:09:30 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:09:30 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:09:30 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:09:30 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:09:30 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:09:30 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:09:30 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:09:43 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:09:43 INFO  ShopSelectingUS:21 - Starting ShopSelectingUS test
+2026-03-04 23:09:43 DEBUG ShopSelectingUS:22 - Scrolling to 'United States'
+2026-03-04 23:10:46 DEBUG ShopSelectingUS:25 - Clicking on 'United States'
+2026-03-04 23:10:48 DEBUG ShopSelectingUS:28 - Entering name: Nitisha
+2026-03-04 23:10:48 DEBUG ShopSelectingUS:31 - Selecting gender: F
+2026-03-04 23:10:48 DEBUG ShopSelectingUS:34 - Clicking 'Let's Shop' button
+2026-03-04 23:10:49 INFO  ShopSelectingUS:38 - Navigating to Products Page
+2026-03-04 23:10:49 DEBUG ShopSelectingUS:41 - Fetching Products Page title
+2026-03-04 23:10:51 DEBUG ShopSelectingUS:44 - Actual Products Page Title: Products
+2026-03-04 23:10:51 INFO  ShopSelectingUS:47 - Validating Products Page title
+2026-03-04 23:10:51 INFO  ShopSelectingUS:49 - Products Page validation PASSED
+2026-03-04 23:10:51 INFO  ShopSelectingUS:61 - ========== Test Completed: ShopSelectingUS ==========
+2026-03-04 23:10:51 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:10:51 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:10:53 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:10:53 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:10:53 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:10:53 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:10:53 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:10:53 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:10:53 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:10:53 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:10:53 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:10:53 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:11:06 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:11:06 INFO  ValidateToastMessage:21 - Starting ValidateToastMessage test
+2026-03-04 23:11:06 DEBUG ValidateToastMessage:24 - Clicking 'Let's Shop' without entering name
+2026-03-04 23:11:11 DEBUG ValidateToastMessage:27 - Capturing Toast message
+2026-03-04 23:11:13 INFO  ValidateToastMessage:32 - Toast message displayed: Please enter your name
+2026-03-04 23:11:13 INFO  ValidateToastMessage:36 - Toast message validation passed
+2026-03-04 23:11:13 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:11:13 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:11:15 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:11:15 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:14:18 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:14:18 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:14:18 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:14:18 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:14:18 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:14:18 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:14:18 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:14:18 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:14:45 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:14:46 INFO  BaseClass:15 - ========== Starting Test: LaunchAppTest ==========
+2026-03-04 23:14:46 INFO  BaseClass:19 - Initializing Home Page
+2026-03-04 23:14:48 DEBUG BaseClass:22 - Fetching Home Page label text
+2026-03-04 23:14:49 DEBUG BaseClass:25 - Actual Home Page Text: Your Name
+2026-03-04 23:14:49 INFO  BaseClass:28 - Validating Home Page text
+2026-03-04 23:14:49 INFO  BaseClass:30 - Home Page validation PASSED
+2026-03-04 23:14:49 INFO  BaseClass:42 - ========== Test Completed: LaunchAppTest ==========
+2026-03-04 23:14:49 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:14:49 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:14:52 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:14:52 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:14:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:54 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:14:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:14:55 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:14:55 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:14:55 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:14:55 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:14:55 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:14:55 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:14:55 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:14:55 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:15:07 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:15:07 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:15:07 INFO  BaseClass:23 - Executing with Data Set -> Name: smitasharma, Gender: Female
+2026-03-04 23:15:07 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:15:07 DEBUG BaseClass:31 - Entering Name: smitasharma
+2026-03-04 23:15:12 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 23:15:12 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:15:13 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:15:14 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:15:16 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:15:16 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:15:16 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:15:16 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:15:16 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:15:16 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:15:18 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:15:18 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:15:18 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:15:18 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:15:18 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:15:18 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:15:18 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:15:18 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:15:18 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:15:18 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:15:36 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:15:36 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:15:36 INFO  BaseClass:23 - Executing with Data Set -> Name: Mona, Gender: Female
+2026-03-04 23:15:36 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:15:36 DEBUG BaseClass:31 - Entering Name: Mona
+2026-03-04 23:15:41 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 23:15:42 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:15:42 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:15:42 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:15:44 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:15:44 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:15:44 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:15:44 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:15:44 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:15:44 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:15:45 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:15:45 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:15:45 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:15:45 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:15:45 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:15:45 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:15:45 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:15:45 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:15:45 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:15:45 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:16:02 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:16:02 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:16:02 INFO  BaseClass:23 - Executing with Data Set -> Name: sid, Gender: Male
+2026-03-04 23:16:02 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:16:02 DEBUG BaseClass:31 - Entering Name: sid
+2026-03-04 23:16:06 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 23:16:07 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:16:08 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:16:08 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:16:11 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:16:11 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:16:11 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:16:11 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:16:11 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:16:11 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:16:13 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:16:13 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:16:13 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:16:13 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:16:13 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:16:13 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:16:13 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:16:13 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:16:13 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:16:13 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:16:26 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:16:26 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:16:26 INFO  BaseClass:23 - Executing with Data Set -> Name: John, Gender: Male
+2026-03-04 23:16:26 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:16:26 DEBUG BaseClass:31 - Entering Name: John
+2026-03-04 23:16:30 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 23:16:31 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:16:32 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:16:32 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:16:34 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:16:34 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:16:34 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:16:34 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:16:34 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:16:34 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:16:36 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:16:36 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:16:36 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:16:36 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:16:36 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:16:36 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:16:36 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:16:36 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:16:36 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:16:36 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:16:53 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:16:53 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:16:53 INFO  BaseClass:23 - Executing with Data Set -> Name: hichamkhachiai, Gender: Female
+2026-03-04 23:16:53 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:16:53 DEBUG BaseClass:31 - Entering Name: hichamkhachiai
+2026-03-04 23:16:59 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 23:17:01 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:17:02 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:17:02 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:17:05 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:17:05 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:17:05 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:17:05 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:17:05 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:17:05 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:17:07 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:17:07 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:17:07 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:17:07 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:17:07 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:17:07 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:17:07 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:17:07 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:17:07 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:17:07 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:18:19 ERROR BaseClass:108 - Driver initialization FAILED for device: emulator-5554
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Cannot start the 'com.androidsample.generalstore' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.androidsample.generalstore.SplashActivity' never started. Consider checking the driver's troubleshooting documentation. 
+Host info: host: 'NITISHA-PC', ip: '192.168.1.240'
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Drivers//Chromedrivers/..., appium:deviceName: emulator-5554, appium:systemPort: 8201, platformName: ANDROID}]}]
+Capabilities {appium:app: C://Users//nitis//eclipse-w..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Drivers//Chromedrivers/..., appium:deviceName: emulator-5554, appium:systemPort: 8201, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
+	at TestBase.BaseClass.ConfigureAppium(BaseClass.java:99)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2026-03-04 23:18:19 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:18:19 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:18:19 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:18:19 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:18:19 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:18:19 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:18:19 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:18:19 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:18:40 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:18:40 INFO  BaseClass:17 - ========== Starting Test: AddToCart ==========
+2026-03-04 23:18:40 DEBUG BaseClass:18 - Initializing Page Objects
+2026-03-04 23:18:40 INFO  BaseClass:23 - Entering user details on Home Page
+2026-03-04 23:18:40 DEBUG BaseClass:26 - Entering name: Nitisha
+2026-03-04 23:18:48 DEBUG BaseClass:29 - Selecting Gender: Female
+2026-03-04 23:18:48 DEBUG BaseClass:32 - Clicking Lets Shop button
+2026-03-04 23:18:49 INFO  BaseClass:37 - Navigating to Products Page
+2026-03-04 23:18:49 DEBUG BaseClass:40 - Scrolling to product: Jordan 6 Rings
+2026-03-04 23:19:04 DEBUG BaseClass:43 - Clicking Add To Cart
+2026-03-04 23:19:05 DEBUG BaseClass:46 - Clicking Cart icon
+2026-03-04 23:19:06 INFO  BaseClass:51 - Validating Cart Page Title
+2026-03-04 23:19:08 DEBUG BaseClass:55 - Actual Cart Title: Cart
+2026-03-04 23:19:08 INFO  BaseClass:59 - Cart title validation PASSED
+2026-03-04 23:19:08 INFO  BaseClass:71 - ========== Test Completed: AddToCart ==========
+2026-03-04 23:19:08 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:19:08 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:19:11 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:19:11 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:19:11 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:19:11 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:19:11 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:19:11 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:19:11 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:19:11 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:19:11 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:19:11 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:19:41 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:19:41 INFO  TermsAndConditions:22 - Starting TermsAndConditions test
+2026-03-04 23:19:41 DEBUG TermsAndConditions:25 - Entering name: Nitisha
+2026-03-04 23:19:45 DEBUG TermsAndConditions:28 - Selecting gender: F
+2026-03-04 23:19:46 DEBUG TermsAndConditions:31 - Clicking 'Let's Shop'
+2026-03-04 23:19:47 DEBUG TermsAndConditions:35 - Scrolling to 'Jordan 6 Rings'
+2026-03-04 23:19:58 DEBUG TermsAndConditions:38 - Clicking 'Add to Cart'
+2026-03-04 23:19:59 DEBUG TermsAndConditions:41 - Clicking Cart icon
+2026-03-04 23:20:00 DEBUG TermsAndConditions:45 - Performing long press on Terms and Conditions
+2026-03-04 23:20:12 DEBUG TermsAndConditions:49 - Verifying Terms and Conditions alert title: Terms Of Conditions
+2026-03-04 23:20:12 INFO  TermsAndConditions:53 - TermsAndConditions test passed
+2026-03-04 23:20:12 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:20:12 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:20:14 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:20:14 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:20:14 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:20:14 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:20:14 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:20:14 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:20:14 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:20:14 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:20:14 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:20:14 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:20:27 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:20:27 INFO  ShopSelectingUS:21 - Starting ShopSelectingUS test
+2026-03-04 23:20:27 DEBUG ShopSelectingUS:22 - Scrolling to 'United States'
+2026-03-04 23:21:26 DEBUG ShopSelectingUS:25 - Clicking on 'United States'
+2026-03-04 23:21:27 DEBUG ShopSelectingUS:28 - Entering name: Nitisha
+2026-03-04 23:21:27 DEBUG ShopSelectingUS:31 - Selecting gender: F
+2026-03-04 23:21:28 DEBUG ShopSelectingUS:34 - Clicking 'Let's Shop' button
+2026-03-04 23:21:28 INFO  ShopSelectingUS:38 - Navigating to Products Page
+2026-03-04 23:21:28 DEBUG ShopSelectingUS:41 - Fetching Products Page title
+2026-03-04 23:21:30 DEBUG ShopSelectingUS:44 - Actual Products Page Title: Products
+2026-03-04 23:21:30 INFO  ShopSelectingUS:47 - Validating Products Page title
+2026-03-04 23:21:30 INFO  ShopSelectingUS:49 - Products Page validation PASSED
+2026-03-04 23:21:30 INFO  ShopSelectingUS:61 - ========== Test Completed: ShopSelectingUS ==========
+2026-03-04 23:21:30 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:21:30 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:21:32 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:21:32 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:21:32 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5554 ==========
+2026-03-04 23:21:32 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:21:32 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:21:32 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:21:32 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:21:32 DEBUG BaseClass:84 - System Port: 8201
+2026-03-04 23:21:32 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:21:32 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:21:43 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5554
+2026-03-04 23:21:43 INFO  ValidateToastMessage:21 - Starting ValidateToastMessage test
+2026-03-04 23:21:43 DEBUG ValidateToastMessage:24 - Clicking 'Let's Shop' without entering name
+2026-03-04 23:21:46 DEBUG ValidateToastMessage:27 - Capturing Toast message
+2026-03-04 23:21:47 INFO  ValidateToastMessage:32 - Toast message displayed: Please enter your name
+2026-03-04 23:21:47 INFO  ValidateToastMessage:36 - Toast message validation passed
+2026-03-04 23:21:47 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:21:47 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:21:48 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:21:48 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:21:50 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:21:50 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:21:50 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:21:50 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:21:50 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:21:50 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:21:50 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:21:50 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:22:00 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:22:00 INFO  BaseClass:15 - ========== Starting Test: LaunchAppTest ==========
+2026-03-04 23:22:00 INFO  BaseClass:19 - Initializing Home Page
+2026-03-04 23:22:00 DEBUG BaseClass:22 - Fetching Home Page label text
+2026-03-04 23:22:04 DEBUG BaseClass:25 - Actual Home Page Text: Your Name
+2026-03-04 23:22:04 INFO  BaseClass:28 - Validating Home Page text
+2026-03-04 23:22:04 INFO  BaseClass:30 - Home Page validation PASSED
+2026-03-04 23:22:04 INFO  BaseClass:42 - ========== Test Completed: LaunchAppTest ==========
+2026-03-04 23:22:04 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:22:04 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:22:05 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:22:05 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:22:05 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:05 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-03-04 23:22:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-03-04 23:22:06 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:22:06 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:22:06 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:22:06 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:22:06 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:22:06 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:22:06 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:22:06 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:22:15 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:22:15 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:22:15 INFO  BaseClass:23 - Executing with Data Set -> Name: smitasharma, Gender: Female
+2026-03-04 23:22:15 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:22:15 DEBUG BaseClass:31 - Entering Name: smitasharma
+2026-03-04 23:22:20 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 23:22:20 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:22:21 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:22:21 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:22:23 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:22:23 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:22:23 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:22:23 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:22:23 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:22:23 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:22:24 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:22:24 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:22:24 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:22:24 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:22:24 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:22:24 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:22:24 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:22:24 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:22:24 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:22:24 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:22:35 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:22:35 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:22:35 INFO  BaseClass:23 - Executing with Data Set -> Name: Mona, Gender: Female
+2026-03-04 23:22:35 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:22:35 DEBUG BaseClass:31 - Entering Name: Mona
+2026-03-04 23:22:39 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 23:22:40 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:22:41 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:22:41 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:22:42 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:22:42 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:22:42 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:22:42 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:22:42 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:22:42 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:22:44 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:22:44 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:22:44 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:22:44 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:22:44 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:22:44 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:22:44 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:22:44 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:22:44 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:22:44 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:22:54 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:22:54 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:22:54 INFO  BaseClass:23 - Executing with Data Set -> Name: sid, Gender: Male
+2026-03-04 23:22:54 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:22:54 DEBUG BaseClass:31 - Entering Name: sid
+2026-03-04 23:22:58 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 23:22:59 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:22:59 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:22:59 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:23:01 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:23:01 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:23:01 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:23:01 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:23:01 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:23:01 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:23:02 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:23:02 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:23:02 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:23:02 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:23:02 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:23:02 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:23:02 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:23:02 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:23:02 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:23:02 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:23:13 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:23:13 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:23:13 INFO  BaseClass:23 - Executing with Data Set -> Name: John, Gender: Male
+2026-03-04 23:23:13 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:23:13 DEBUG BaseClass:31 - Entering Name: John
+2026-03-04 23:23:18 DEBUG BaseClass:34 - Selecting Gender: Male
+2026-03-04 23:23:18 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:23:19 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:23:19 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:23:21 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:23:21 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:23:21 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:23:21 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:23:21 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:23:21 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:23:22 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:23:22 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:23:22 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:23:22 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:23:22 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:23:22 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:23:22 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:23:22 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:23:22 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:23:22 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:23:35 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:23:35 INFO  BaseClass:22 - ========== Starting Test: TestLetsShop ==========
+2026-03-04 23:23:35 INFO  BaseClass:23 - Executing with Data Set -> Name: hichamkhachiai, Gender: Female
+2026-03-04 23:23:35 INFO  BaseClass:28 - Initializing Home Page
+2026-03-04 23:23:35 DEBUG BaseClass:31 - Entering Name: hichamkhachiai
+2026-03-04 23:23:39 DEBUG BaseClass:34 - Selecting Gender: Female
+2026-03-04 23:23:40 DEBUG BaseClass:37 - Clicking Lets Shop button
+2026-03-04 23:23:41 INFO  BaseClass:42 - Navigating to Products Page
+2026-03-04 23:23:41 DEBUG BaseClass:45 - Fetching Products Page title
+2026-03-04 23:23:43 DEBUG BaseClass:48 - Actual Products Page Title: Products
+2026-03-04 23:23:43 INFO  BaseClass:51 - Validating Products Page title
+2026-03-04 23:23:43 INFO  BaseClass:53 - Products Page validation PASSED
+2026-03-04 23:23:43 INFO  BaseClass:65 - ========== Test Completed: TestLetsShop ==========
+2026-03-04 23:23:43 INFO  BaseClass:117 - Starting teardown process...
+2026-03-04 23:23:43 DEBUG BaseClass:121 - Closing driver session
+2026-03-04 23:23:45 INFO  BaseClass:124 - Driver closed successfully
+2026-03-04 23:23:45 INFO  BaseClass:132 - ========== Test Finished ==========
+2026-03-04 23:23:45 INFO  BaseClass:56 - ========== Starting Test on Device: emulator-5556 ==========
+2026-03-04 23:23:45 DEBUG BaseClass:61 - Loading config.properties
+2026-03-04 23:23:45 DEBUG BaseClass:78 - App URL: http://127.0.0.1:4723
+2026-03-04 23:23:45 DEBUG BaseClass:79 - App Path: C://Users//nitis//eclipse-workspace//AppiumV04//src//test//java//Resources//General-Store.apk
+2026-03-04 23:23:45 DEBUG BaseClass:80 - Implicit Wait: 10 seconds
+2026-03-04 23:23:45 DEBUG BaseClass:84 - System Port: 8202
+2026-03-04 23:23:45 DEBUG BaseClass:95 - Chromedriver path set
+2026-03-04 23:23:45 INFO  BaseClass:96 - Initializing Appium driver...
+2026-03-04 23:23:57 INFO  BaseClass:105 - Driver initialized successfully on device: emulator-5556
+2026-03-04 23:23:57 INFO  BaseClass:20 - ========== Starting Test: CompletePurchase ==========
+2026-03-04 23:23:57 INFO  BaseClass:25 - Entering user details on Home Page
+2026-03-04 23:23:57 DEBUG BaseClass:28 - Entering Name: Nitisha
+2026-03-04 23:24:02 DEBUG BaseClass:31 - Selecting Gender: F
+2026-03-04 23:24:02 DEBUG BaseClass:34 - Clicking Lets Shop
+2026-03-04 23:24:03 INFO  BaseClass:39 - Navigating to Products Page
+2026-03-04 23:24:03 DEBUG BaseClass:42 - Scrolling to product: Jordan 6 Rings

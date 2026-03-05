@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-04T22:57:26 CST" name="Suite" finished-at="2026-03-04T23:11:15 CST" duration-ms="828310">
+    <groups>
+      <group name="datadriven">
+        <method signature="LetsShop.TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" name="TestLetsShop" class="TestCases.LetsShop"/>
+        <method signature="LetsShop.TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" name="TestLetsShop" class="TestCases.LetsShop"/>
+      </group> <!-- datadriven -->
+      <group name="regression">
+        <method signature="AddToCart.TestAddtoCart()[pri:0, instance:TestCases.AddToCart@45cff11c]" name="TestAddtoCart" class="TestCases.AddToCart"/>
+        <method signature="CompletePurchase.TestCompletePurchase()[pri:0, instance:TestCases.CompletePurchase@1b065145]" name="TestCompletePurchase" class="TestCases.CompletePurchase"/>
+        <method signature="LaunchApp.LaunchAppTest()[pri:0, instance:TestCases.LaunchApp@5b43fbf6]" name="LaunchAppTest" class="TestCases.LaunchApp"/>
+        <method signature="LetsShop.TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" name="TestLetsShop" class="TestCases.LetsShop"/>
+        <method signature="ShopSelectingUS.ShopSelectingUSTest()[pri:0, instance:TestCases.ShopSelectingUS@4bff1903]" name="ShopSelectingUSTest" class="TestCases.ShopSelectingUS"/>
+        <method signature="TermsAndConditions.TestTermsAndConditions()[pri:0, instance:TestCases.TermsAndConditions@207ea13]" name="TestTermsAndConditions" class="TestCases.TermsAndConditions"/>
+        <method signature="ValidateToastMessage.TestToastMessage()[pri:0, instance:TestCases.ValidateToastMessage@62dae540]" name="TestToastMessage" class="TestCases.ValidateToastMessage"/>
+        <method signature="AddToCart.TestAddtoCart()[pri:0, instance:TestCases.AddToCart@29e6eb25]" name="TestAddtoCart" class="TestCases.AddToCart"/>
+        <method signature="CompletePurchase.TestCompletePurchase()[pri:0, instance:TestCases.CompletePurchase@6cbcf243]" name="TestCompletePurchase" class="TestCases.CompletePurchase"/>
+        <method signature="LaunchApp.LaunchAppTest()[pri:0, instance:TestCases.LaunchApp@305f7627]" name="LaunchAppTest" class="TestCases.LaunchApp"/>
+        <method signature="LetsShop.TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" name="TestLetsShop" class="TestCases.LetsShop"/>
+        <method signature="ShopSelectingUS.ShopSelectingUSTest()[pri:0, instance:TestCases.ShopSelectingUS@339bf286]" name="ShopSelectingUSTest" class="TestCases.ShopSelectingUS"/>
+        <method signature="TermsAndConditions.TestTermsAndConditions()[pri:0, instance:TestCases.TermsAndConditions@62435e70]" name="TestTermsAndConditions" class="TestCases.TermsAndConditions"/>
+        <method signature="ValidateToastMessage.TestToastMessage()[pri:0, instance:TestCases.ValidateToastMessage@38be305c]" name="TestToastMessage" class="TestCases.ValidateToastMessage"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="AddToCart.TestAddtoCart()[pri:0, instance:TestCases.AddToCart@45cff11c]" name="TestAddtoCart" class="TestCases.AddToCart"/>
+        <method signature="CompletePurchase.TestCompletePurchase()[pri:0, instance:TestCases.CompletePurchase@1b065145]" name="TestCompletePurchase" class="TestCases.CompletePurchase"/>
+        <method signature="LaunchApp.LaunchAppTest()[pri:0, instance:TestCases.LaunchApp@5b43fbf6]" name="LaunchAppTest" class="TestCases.LaunchApp"/>
+        <method signature="LetsShop.TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" name="TestLetsShop" class="TestCases.LetsShop"/>
+        <method signature="AddToCart.TestAddtoCart()[pri:0, instance:TestCases.AddToCart@29e6eb25]" name="TestAddtoCart" class="TestCases.AddToCart"/>
+        <method signature="CompletePurchase.TestCompletePurchase()[pri:0, instance:TestCases.CompletePurchase@6cbcf243]" name="TestCompletePurchase" class="TestCases.CompletePurchase"/>
+        <method signature="LaunchApp.LaunchAppTest()[pri:0, instance:TestCases.LaunchApp@305f7627]" name="LaunchAppTest" class="TestCases.LaunchApp"/>
+        <method signature="LetsShop.TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" name="TestLetsShop" class="TestCases.LetsShop"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-03-04T22:57:26 CST" name="Android_Emulator_5554" finished-at="2026-03-04T23:04:34 CST" duration-ms="427990">
+      <class name="TestCases.AddToCart">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.AddToCart@45cff11c]" started-at="2026-03-04T23:01:25 CST" name="ConfigureAppium" finished-at="2026-03-04T23:01:47 CST" duration-ms="21855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestAddtoCart()[pri:0, instance:TestCases.AddToCart@45cff11c]" started-at="2026-03-04T23:01:47 CST" name="TestAddtoCart" finished-at="2026-03-04T23:02:07 CST" duration-ms="19364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddtoCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.AddToCart@45cff11c]" started-at="2026-03-04T23:02:07 CST" name="tearDown" finished-at="2026-03-04T23:02:08 CST" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.AddToCart -->
+      <class name="TestCases.TermsAndConditions">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TermsAndConditions@207ea13]" started-at="2026-03-04T23:02:08 CST" name="ConfigureAppium" finished-at="2026-03-04T23:02:21 CST" duration-ms="13071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestTermsAndConditions()[pri:0, instance:TestCases.TermsAndConditions@207ea13]" started-at="2026-03-04T23:02:21 CST" name="TestTermsAndConditions" finished-at="2026-03-04T23:02:46 CST" duration-ms="25247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTermsAndConditions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TermsAndConditions@207ea13]" started-at="2026-03-04T23:02:46 CST" name="tearDown" finished-at="2026-03-04T23:02:47 CST" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TermsAndConditions -->
+      <class name="TestCases.CompletePurchase">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.CompletePurchase@1b065145]" started-at="2026-03-04T22:59:49 CST" name="ConfigureAppium" finished-at="2026-03-04T23:00:05 CST" duration-ms="15969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestCompletePurchase()[pri:0, instance:TestCases.CompletePurchase@1b065145]" started-at="2026-03-04T23:00:05 CST" name="TestCompletePurchase" finished-at="2026-03-04T23:01:22 CST" duration-ms="77222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCompletePurchase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.CompletePurchase@1b065145]" started-at="2026-03-04T23:01:22 CST" name="tearDown" finished-at="2026-03-04T23:01:25 CST" duration-ms="3218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.CompletePurchase -->
+      <class name="TestCases.ValidateToastMessage">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.ValidateToastMessage@62dae540]" started-at="2026-03-04T23:04:13 CST" name="ConfigureAppium" finished-at="2026-03-04T23:04:25 CST" duration-ms="12491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestToastMessage()[pri:0, instance:TestCases.ValidateToastMessage@62dae540]" started-at="2026-03-04T23:04:25 CST" name="TestToastMessage" finished-at="2026-03-04T23:04:32 CST" duration-ms="6524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestToastMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.ValidateToastMessage@62dae540]" started-at="2026-03-04T23:04:32 CST" name="tearDown" finished-at="2026-03-04T23:04:34 CST" duration-ms="2370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.ValidateToastMessage -->
+      <class name="TestCases.LaunchApp">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LaunchApp@5b43fbf6]" started-at="2026-03-04T22:57:26 CST" name="ConfigureAppium" finished-at="2026-03-04T22:57:49 CST" duration-ms="22192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="LaunchAppTest()[pri:0, instance:TestCases.LaunchApp@5b43fbf6]" started-at="2026-03-04T22:57:49 CST" name="LaunchAppTest" finished-at="2026-03-04T22:57:53 CST" duration-ms="4595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAppTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LaunchApp@5b43fbf6]" started-at="2026-03-04T22:57:53 CST" name="tearDown" finished-at="2026-03-04T22:57:55 CST" duration-ms="1866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LaunchApp -->
+      <class name="TestCases.ShopSelectingUS">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.ShopSelectingUS@4bff1903]" started-at="2026-03-04T23:02:47 CST" name="ConfigureAppium" finished-at="2026-03-04T23:03:01 CST" duration-ms="13484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="ShopSelectingUSTest()[pri:0, instance:TestCases.ShopSelectingUS@4bff1903]" started-at="2026-03-04T23:03:01 CST" name="ShopSelectingUSTest" finished-at="2026-03-04T23:04:11 CST" duration-ms="70088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopSelectingUSTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.ShopSelectingUS@4bff1903]" started-at="2026-03-04T23:04:11 CST" name="tearDown" finished-at="2026-03-04T23:04:13 CST" duration-ms="1822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.ShopSelectingUS -->
+      <class name="TestCases.LetsShop">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:57:57 CST" name="ConfigureAppium" finished-at="2026-03-04T22:58:11 CST" duration-ms="14159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:58:11 CST" name="TestLetsShop" data-provider="LoginData" finished-at="2026-03-04T22:58:19 CST" duration-ms="7965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smitasharma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLetsShop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:58:19 CST" name="tearDown" finished-at="2026-03-04T22:58:21 CST" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:58:21 CST" name="ConfigureAppium" finished-at="2026-03-04T22:58:33 CST" duration-ms="11362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:58:33 CST" name="TestLetsShop" data-provider="LoginData" finished-at="2026-03-04T22:58:41 CST" duration-ms="7842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mona]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLetsShop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:58:41 CST" name="tearDown" finished-at="2026-03-04T22:58:43 CST" duration-ms="2325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:58:43 CST" name="ConfigureAppium" finished-at="2026-03-04T22:58:55 CST" duration-ms="11824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:58:55 CST" name="TestLetsShop" data-provider="LoginData" finished-at="2026-03-04T22:59:03 CST" duration-ms="8084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLetsShop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:59:03 CST" name="tearDown" finished-at="2026-03-04T22:59:04 CST" duration-ms="1616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:59:04 CST" name="ConfigureAppium" finished-at="2026-03-04T22:59:15 CST" duration-ms="10986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:59:15 CST" name="TestLetsShop" data-provider="LoginData" finished-at="2026-03-04T22:59:23 CST" duration-ms="8020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLetsShop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:59:23 CST" name="tearDown" finished-at="2026-03-04T22:59:25 CST" duration-ms="1522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:59:25 CST" name="ConfigureAppium" finished-at="2026-03-04T22:59:37 CST" duration-ms="12594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:59:37 CST" name="TestLetsShop" data-provider="LoginData" finished-at="2026-03-04T22:59:47 CST" duration-ms="9506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hichamkhachiai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLetsShop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LetsShop@4721d212]" started-at="2026-03-04T22:59:47 CST" name="tearDown" finished-at="2026-03-04T22:59:49 CST" duration-ms="1965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LetsShop -->
+    </test> <!-- Android_Emulator_5554 -->
+    <test started-at="2026-03-04T23:04:38 CST" name="Android_Emulator_5556" finished-at="2026-03-04T23:11:15 CST" duration-ms="397063">
+      <class name="TestCases.AddToCart">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.AddToCart@29e6eb25]" started-at="2026-03-04T23:08:17 CST" name="ConfigureAppium" finished-at="2026-03-04T23:08:33 CST" duration-ms="15048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestAddtoCart()[pri:0, instance:TestCases.AddToCart@29e6eb25]" started-at="2026-03-04T23:08:33 CST" name="TestAddtoCart" finished-at="2026-03-04T23:08:50 CST" duration-ms="17196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddtoCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.AddToCart@29e6eb25]" started-at="2026-03-04T23:08:50 CST" name="tearDown" finished-at="2026-03-04T23:08:51 CST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.AddToCart -->
+      <class name="TestCases.TermsAndConditions">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TermsAndConditions@62435e70]" started-at="2026-03-04T23:08:51 CST" name="ConfigureAppium" finished-at="2026-03-04T23:09:03 CST" duration-ms="11795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestTermsAndConditions()[pri:0, instance:TestCases.TermsAndConditions@62435e70]" started-at="2026-03-04T23:09:03 CST" name="TestTermsAndConditions" finished-at="2026-03-04T23:09:28 CST" duration-ms="25513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTermsAndConditions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TermsAndConditions@62435e70]" started-at="2026-03-04T23:09:28 CST" name="tearDown" finished-at="2026-03-04T23:09:30 CST" duration-ms="1651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TermsAndConditions -->
+      <class name="TestCases.CompletePurchase">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.CompletePurchase@6cbcf243]" started-at="2026-03-04T23:06:46 CST" name="ConfigureAppium" finished-at="2026-03-04T23:06:58 CST" duration-ms="11678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestCompletePurchase()[pri:0, instance:TestCases.CompletePurchase@6cbcf243]" started-at="2026-03-04T23:06:58 CST" name="TestCompletePurchase" finished-at="2026-03-04T23:08:15 CST" duration-ms="77308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCompletePurchase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.CompletePurchase@6cbcf243]" started-at="2026-03-04T23:08:15 CST" name="tearDown" finished-at="2026-03-04T23:08:17 CST" duration-ms="2491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.CompletePurchase -->
+      <class name="TestCases.ValidateToastMessage">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.ValidateToastMessage@38be305c]" started-at="2026-03-04T23:10:53 CST" name="ConfigureAppium" finished-at="2026-03-04T23:11:06 CST" duration-ms="13661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestToastMessage()[pri:0, instance:TestCases.ValidateToastMessage@38be305c]" started-at="2026-03-04T23:11:06 CST" name="TestToastMessage" finished-at="2026-03-04T23:11:13 CST" duration-ms="6679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestToastMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.ValidateToastMessage@38be305c]" started-at="2026-03-04T23:11:13 CST" name="tearDown" finished-at="2026-03-04T23:11:15 CST" duration-ms="1630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.ValidateToastMessage -->
+      <class name="TestCases.LaunchApp">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LaunchApp@305f7627]" started-at="2026-03-04T23:04:38 CST" name="ConfigureAppium" finished-at="2026-03-04T23:04:49 CST" duration-ms="11472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="LaunchAppTest()[pri:0, instance:TestCases.LaunchApp@305f7627]" started-at="2026-03-04T23:04:49 CST" name="LaunchAppTest" finished-at="2026-03-04T23:04:53 CST" duration-ms="4298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAppTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LaunchApp@305f7627]" started-at="2026-03-04T23:04:53 CST" name="tearDown" finished-at="2026-03-04T23:04:55 CST" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LaunchApp -->
+      <class name="TestCases.ShopSelectingUS">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.ShopSelectingUS@339bf286]" started-at="2026-03-04T23:09:30 CST" name="ConfigureAppium" finished-at="2026-03-04T23:09:43 CST" duration-ms="13238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="ShopSelectingUSTest()[pri:0, instance:TestCases.ShopSelectingUS@339bf286]" started-at="2026-03-04T23:09:43 CST" name="ShopSelectingUSTest" finished-at="2026-03-04T23:10:51 CST" duration-ms="68159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopSelectingUSTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.ShopSelectingUS@339bf286]" started-at="2026-03-04T23:10:51 CST" name="tearDown" finished-at="2026-03-04T23:10:53 CST" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.ShopSelectingUS -->
+      <class name="TestCases.LetsShop">
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:04:56 CST" name="ConfigureAppium" finished-at="2026-03-04T23:05:07 CST" duration-ms="11138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:05:07 CST" name="TestLetsShop" data-provider="LoginData" finished-at="2026-03-04T23:05:16 CST" duration-ms="8544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smitasharma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLetsShop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:05:16 CST" name="tearDown" finished-at="2026-03-04T23:05:17 CST" duration-ms="1745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:05:17 CST" name="ConfigureAppium" finished-at="2026-03-04T23:05:31 CST" duration-ms="13519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:05:31 CST" name="TestLetsShop" data-provider="LoginData" finished-at="2026-03-04T23:05:38 CST" duration-ms="7680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mona]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLetsShop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:05:38 CST" name="tearDown" finished-at="2026-03-04T23:05:40 CST" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:05:40 CST" name="ConfigureAppium" finished-at="2026-03-04T23:05:54 CST" duration-ms="14174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:05:54 CST" name="TestLetsShop" data-provider="LoginData" finished-at="2026-03-04T23:06:03 CST" duration-ms="8630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLetsShop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:06:03 CST" name="tearDown" finished-at="2026-03-04T23:06:05 CST" duration-ms="1882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:06:05 CST" name="ConfigureAppium" finished-at="2026-03-04T23:06:16 CST" duration-ms="11043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:06:16 CST" name="TestLetsShop" data-provider="LoginData" finished-at="2026-03-04T23:06:24 CST" duration-ms="7930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLetsShop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:06:24 CST" name="tearDown" finished-at="2026-03-04T23:06:25 CST" duration-ms="1628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="ConfigureAppium(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:06:25 CST" name="ConfigureAppium" finished-at="2026-03-04T23:06:37 CST" duration-ms="11205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TestLetsShop(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:06:37 CST" name="TestLetsShop" data-provider="LoginData" finished-at="2026-03-04T23:06:44 CST" duration-ms="7858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hichamkhachiai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLetsShop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LetsShop@5d018107]" started-at="2026-03-04T23:06:44 CST" name="tearDown" finished-at="2026-03-04T23:06:46 CST" duration-ms="1512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LetsShop -->
+    </test> <!-- Android_Emulator_5556 -->
+  </suite> <!-- Suite -->
+</testng-results>

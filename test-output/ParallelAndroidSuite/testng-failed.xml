@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [ParallelAndroidSuite]">
+  <test thread-count="2" parallel="tests" name="Android_Emulator_5556(failed)">
+    <parameter name="deviceName" value="emulator-5556"/>
+    <parameter name="systemPort" value="8202"/>
+    <classes>
+      <class name="TestCases.LaunchApp">
+        <methods>
+          <include name="LaunchAppTest"/>
+          <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.LaunchApp -->
+      <class name="TestCases.ValidateToastMessage">
+        <methods>
+          <include name="TestToastMessage"/>
+          <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.ValidateToastMessage -->
+      <class name="TestCases.AddToCart">
+        <methods>
+          <include name="TestAddtoCart"/>
+          <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.AddToCart -->
+      <class name="TestCases.CompletePurchase">
+        <methods>
+          <include name="TestCompletePurchase"/>
+          <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.CompletePurchase -->
+      <class name="TestCases.ShopSelectingUS">
+        <methods>
+          <include name="ShopSelectingUSTest"/>
+          <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.ShopSelectingUS -->
+      <class name="TestCases.LetsShop">
+        <methods>
+          <include name="ConfigureAppium"/>
+          <include name="TestLetsShop"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.LetsShop -->
+      <class name="TestCases.TermsAndConditions">
+        <methods>
+          <include name="TestTermsAndConditions"/>
+          <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TermsAndConditions -->
+    </classes>
+  </test> <!-- Android_Emulator_5556(failed) -->
+  <test thread-count="2" parallel="tests" name="Android_Emulator_5554(failed)">
+    <parameter name="deviceName" value="emulator-5554"/>
+    <parameter name="systemPort" value="8201"/>
+    <classes>
+      <class name="TestCases.LaunchApp">
+        <methods>
+          <include name="LaunchAppTest"/>
+          <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.LaunchApp -->
+      <class name="TestCases.CompletePurchase">
+        <methods>
+          <include name="TestCompletePurchase"/>
+          <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.CompletePurchase -->
+      <class name="TestCases.LetsShop">
+        <methods>
+          <include name="ConfigureAppium"/>
+          <include name="TestLetsShop" invocation-numbers="0 1 2 3 4"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.LetsShop -->
+    </classes>
+  </test> <!-- Android_Emulator_5554(failed) -->
+</suite> <!-- Failed suite [ParallelAndroidSuite] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Utilities.TestListener"/>
+  </listeners>
+  <test thread-count="2" name="Android_Emulator_5554(failed)">
+    <parameter name="deviceName" value="emulator-5554"/>
+    <parameter name="systemPort" value="8201"/>
+    <groups>
+      <run>
+        <include name="datadriven"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.LetsShop">
+        <methods>
+          <include name="TestLetsShop" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- TestCases.LetsShop -->
+    </classes>
+  </test> <!-- Android_Emulator_5554(failed) -->
+  <test thread-count="2" name="Android_Emulator_5556(failed)">
+    <parameter name="deviceName" value="emulator-5556"/>
+    <parameter name="systemPort" value="8202"/>
+    <groups>
+      <run>
+        <include name="datadriven"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.LetsShop">
+        <methods>
+          <include name="TestLetsShop" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- TestCases.LetsShop -->
+    </classes>
+  </test> <!-- Android_Emulator_5556(failed) -->
+</suite> <!-- Failed suite [Suite] -->
