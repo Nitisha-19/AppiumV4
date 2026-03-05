@@ -1,4 +1,5 @@
 **📱 Appium Mobile Automation Framework**
+
 A scalable mobile automation testing framework built using Appium, Java, TestNG, and Selenium WebDriver.
 
 This project demonstrates a production-style automation framework implementing Page Object Model (POM), parallel execution, retry mechanisms, logging, and data-driven testing.
